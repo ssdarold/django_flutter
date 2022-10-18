@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'flutter_back',
     'rest_framework',
     'rest_framework.authtoken',
-    'djoser'
+    'djoser',
+    'drf_yasg'
 ]
 
 AUTH_USER_MODEL = 'flutter_back.CustomUser'
